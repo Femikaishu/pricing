@@ -45,8 +45,8 @@ function App() {
                         <hr class="my-3 bg-gray-400 border-5 "></hr>     
                         <p className=' text-center font-bold text-xs text-blue-600  uppercase '>{pricing.description}</p>
                         <hr class="my-5  bg-gray-400 border-5 "></hr>     
-                        <p className='text-3xl font-semibold text-center my-2 text-blue-600 py-10'>{pricing.cost.toUpperCase()}</p>
-                        <center><button className="md:px-20 md:py-4 sm:px-18 sm:py-2 border border-blue-400 focus:bg-blue-400 hover:bg-blue-200 items-center rounded-md justify-center item-center  text-md text-blue-600 ">{pricing.buttonName}</button></center>
+                        <p className='text-5xl font-semibold text-center my-2 text-blue-600 py-10'>{pricing.cost.toUpperCase()}</p>
+                        <center><button className="md:px-20 md:py-4 sm:px-20 sm:py-2 border border-blue-400 focus:bg-blue-400 hover:bg-blue-200 items-center rounded-md justify-center item-center  md:text-xl sm:text-sm text-blue-600 ">{pricing.buttonName}</button></center>
 
                     </div>
                 ))}
